@@ -10,11 +10,26 @@
 *   Powered by Google's Gemini large language models.
 *   Simple, promise-based API.
 
-## Requirements
+## How to use
 
-*   **Runtime:** Node.js `>=21`
-*   **API Key:** A Google Gemini API key is required for authentication.
+#### Import the package
+```ts
+import { VibesortGemini } from "vibesort-gemini"
+const vibesort = new VibesortGemini({ apiKey: "YOUR_GEMINI_API_KEY" })
+```
+
+#### Sort Numbers
+```ts
+const { data: sortedNumbers } = await vibesort.sort([90, 44, 67, 69, 12, 1, 64, 16, 32])
+console.log(sortedNumbers)
+```
+
+#### Sort Strings
+```ts
+const { data: sortedStrings } = await vibesort.sortString(["globe", "toy", "nodejs", "typescript", "javascript"])
+console.log(sortedStrings)
+```
 
 ## License
 
-This project is licensed under the ISC License.
+This project is licensed under the <b>ISC License.</b>
