@@ -11,6 +11,10 @@
 *   Simple, promise-based API.
 
 ## How to use
+#### Install the package
+```sh
+npm install vibesort-gemini
+```
 
 #### Import the package
 ```ts
@@ -29,6 +33,9 @@ console.log(sortedNumbers)
 const { data: sortedStrings } = await vibesort.sortString(["globe", "toy", "nodejs", "typescript", "javascript"])
 console.log(sortedStrings)
 ```
+
+## Contributing
+uhh, just clone and edit. push to main. i guess that how contributing works here in github. ¯\\\_(ツ)_/¯
 
 ## License
 
