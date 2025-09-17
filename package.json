@@ -7,6 +7,14 @@
   "scripts": {
     "build": "tsup"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adwerygaming/vibesort-gemini"
+  },
+  "bugs": {
+    "url": "https://github.com/adwerygaming/vibesort-gemini/issues"
+  },
+  "homepage": "https://github.com/adwerygaming/vibesort-gemini",
   "keywords": [],
   "author": "adwerygaming",
   "license": "ISC",
